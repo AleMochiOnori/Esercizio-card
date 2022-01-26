@@ -78,7 +78,6 @@ header {
 
 .card-tool {
     display: flex;
-    align-items: flex-start;
     gap: 10px;
     padding: 4px;
     margin-left: 20px;
@@ -96,18 +95,8 @@ header {
     font-size: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
 
-    body {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        flex-direction: row;
-    }
-
-}
-
-@media (min-width: 370px) and (max-width: 768px) {
+@media (min-width: 370px) and (max-width: 1024px) {
     
     body {
         display: flex;
